@@ -27,7 +27,7 @@ class Journey extends simulationConfiguration
   override val rampdownTime:FiniteDuration = DurationInt(TestConfiguration.rampdowntime).minutes
 
 
-  setUp(petStore.inject(constantUsersPerSec(2) during (60 seconds)))
+  setUp(petStore.inject(constantUsersPerSec(2) during (20 seconds)))
 
 }
 

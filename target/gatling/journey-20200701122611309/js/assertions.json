@@ -1,0 +1,10 @@
+{
+  "simulation": "petApp.Journey",
+  "simulationId": "journey",
+  "start": 1593606371309,
+  "description": "",
+  "scenarios": ["Add a new pet to the store"],
+  "assertions": [
+
+  ]
+}
